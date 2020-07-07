@@ -1,3 +1,59 @@
+
 .container{
     margin-bottom: 100px;
+}
+
+/* navbar */
+.white-bg{
+    background: white !important;
+}
+/* carousel part */
+.carousel-indicators div {
+  height: 7px;
+  width: 10px;
+  border-radius: 6px;
+  background-color: rgba(128, 128, 128, 0.3);
+  margin: 10px 3px;
+  
+}
+
+.carousel-indicators .active {
+  height: 6px;
+  width: 35px;
+  border-radius: 11px;
+  background-image: linear-gradient(to right, #ff8206, #ffd019);
+}
+
+.carousel-item {
+  padding: 10px 40px 20px;
+}
+
+/* smartphone part */
+.card {
+  border: none;
+  box-shadow: 1px 1px 10px #80808080;
+  border-radius: 10px;
+}
+
+.card-footer {
+  background-color: white;
+  border-top: none;
+  padding-bottom: 1.5rem;
+}
+
+/* categories part */
+
+.underline-block {
+  width: 100px;
+  height: 8px;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #ff8206, #ffff00);
+}
+
+#perfume-cat, #shoe-cat{
+    border-radius: 15px 5px 30px 5px;
+}
+
+#bag-cat{
+    border-radius: 5px 15px 5px 30px;
 }
